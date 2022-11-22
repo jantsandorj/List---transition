@@ -1,0 +1,28 @@
+main{
+    max-width: 780px;
+    width: 100%;
+    margin: auto;
+}
+.outer{
+    background-color: aqua;
+}
+.height{
+    height: 50px;
+    border: green 1px solid;
+    display: flex;
+    padding-left: 2rem;
+    transition-duration: 2s;
+    transition-property: height, backround-color;
+}
+a{
+    align-self: center;
+    font-size: 1rem;
+    transition: 2s 0.5s font-size linear;
+}
+.height:hover{
+    background-color: orange;
+    height: 80px;
+}
+a:hover{
+    font-size: 2rem;
+}
